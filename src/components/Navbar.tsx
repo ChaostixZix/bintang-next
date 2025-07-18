@@ -78,11 +78,11 @@ export default function Navbar() {
                                     </div>
                                 </DropdownMenuLabel>
                                 <DropdownMenuSeparator />
-                                <DropdownMenuItem>
-                                    Change Password
+                                <DropdownMenuItem asChild>
+                                    <Link href="/change-password">Change Password</Link>
                                 </DropdownMenuItem>
-                                <DropdownMenuItem>
-                                    Change Name
+                                <DropdownMenuItem asChild>
+                                    <Link href="/change-name">Change Name</Link>
                                 </DropdownMenuItem>
                                 <DropdownMenuSeparator />
                                 <DropdownMenuItem onClick={handleSignOut}>
